@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahya Muhammad Abiyu Salam - Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <h1>Ahya Muhammad Abiyu Salam</h1>
+          <p class="tagline">Data Science & Cloud Engineering</p>
+        </div>
+        <button id="theme-toggle" class="theme-toggle">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="container">
+      <!-- Profile Section -->
+      <section id="home" class="profile">
+        <div class="profile-image">
+          <img src="assets/images/profile.jpg" alt="Ahya Muhammad Abiyu Salam">
+        </div>
+        <div class="profile-info">
+          <h2>Ahya Muhammad Abiyu Salam</h2>
+          <p>Data Science & Cloud Engineering Enthusiast</p>
+          <p>I'm passionate about building intelligent systems and scalable cloud solutions. Specialized in deep learning, machine learning, and AWS cloud architecture.</p>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/ahya-muhammad-abiyu-salam" target="_blank" title="LinkedIn">in</a>
+            <a href="mailto:abiyu.salam2004@gmail.com" title="Email">✉</a>
+            <a href="https://wa.me/6285223840874" title="WhatsApp">💬</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects-section">
+        <h2>Featured Projects</h2>
+        
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="ml">ML</button>
+          <button class="filter-btn" data-filter="cloud">Cloud</button>
+          <button class="filter-btn" data-filter="devops">DevOps</button>
+          <button class="filter-btn" data-filter="networking">Networking</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card" data-category="ml">
+            <div class="project-image">📊</div>
+            <div class="project-content">
+              <h3>Hate Speech Detection</h3>
+              <p class="category">ML</p>
+              <p>Comparative analysis of four deep learning architectures for detecting hate speech on Twitter text.</p>
+              <p><strong>June 2025</strong></p>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card" data-category="ml">
+            <div class="project-image">🍎</div>
+            <div class="project-content">
+              <h3>Heart Healthy Food Classification</h3>
+              <p class="category">ML</p>
+              <p>ML models (Random Forest, XGBoost, Neural Network) to classify food based on nutritional data.</p>
+              <p><strong>May 2025</strong></p>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card" data-category="ml">
+            <div class="project-image">🎵</div>
+            <div class="project-content">
+              <h3>Personalized Music Recommender</h3>
+              <p class="category">ML</p>
+              <p>Interactive web app using K-Means clustering and Streamlit to recommend songs based on mood.</p>
+              <p><strong>July 2025</strong></p>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card" data-category="cloud">
+            <div class="project-image">🌊</div>
+            <div class="project-content">
+              <h3>Smart Tsunami Mitigation</h3>
+              <p class="category">Cloud</p>
+              <p>AI & IoT integration for tsunami mitigation with automatic flap gates and WhatsApp alerts.</p>
+              <p><strong>Aug 2024</strong></p>
+            </div>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="project-card" data-category="devops">
+            <div class="project-image">⚙️</div>
+            <div class="project-content">
+              <h3>Nginx Deployment Automation</h3>
+              <p class="category">DevOps</p>
+              <p>Ansible playbook for automated Nginx provisioning and configuration on Ubuntu nodes.</p>
+              <p><strong>Sept 2025</strong></p>
+            </div>
+          </article>
+
+          <!-- Project 6 -->
+          <article class="project-card" data-category="networking">
+            <div class="project-image">🌐</div>
+            <div class="project-content">
+              <h3>Networking Labs & Tutorials</h3>
+              <p class="category">Networking</p>
+              <p>80+ practical networking tutorials covering MTCNA, MTCRE, and CCNA frameworks.</p>
+              <p><strong>Feb 2021</strong></p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        
+        <div class="skills-category">
+          <h3>Programming & Data</h3>
+          <div class="skills-grid">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">NumPy</span>
+            <span class="skill-tag">Pandas</span>
+            <span class="skill-tag">Scikit-Learn</span>
+            <span class="skill-tag">PyTorch</span>
+            <span class="skill-tag">TensorFlow</span>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <h3>Database & Cloud</h3>
+          <div class="skills-grid">
+            <span class="skill-tag">AWS EC2</span>
+            <span class="skill-tag">AWS S3</span>
+            <span class="skill-tag">AWS RDS</span>
+            <span class="skill-tag">AWS SageMaker</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">MySQL</span>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <h3>Systems & Networking</h3>
+          <div class="skills-grid">
+            <span class="skill-tag">Linux Admin</span>
+            <span class="skill-tag">Ansible</span>
+            <span class="skill-tag">TCP/IP</span>
+            <span class="skill-tag">Mikrotik</span>
+            <span class="skill-tag">Cisco</span>
+            <span class="skill-tag">Network Security</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact-section">
+        <h2>Get In Touch</h2>
+        <div class="contact-info">
+          <p><strong>Email:</strong> <a href="mailto:abiyu.salam2004@gmail.com">abiyu.salam2004@gmail.com</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+628522384 0874">+62 852 2384 0874</a></p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ahya-muhammad-abiyu-salam" target="_blank">Ahya Muhammad Abiyu Salam</a></p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Ahya Muhammad Abiyu Salam. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
