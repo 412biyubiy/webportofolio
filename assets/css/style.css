@@ -272,12 +272,13 @@ body.dark-mode .project-card:hover {
 .category {
   display: inline-block;
   background: var(--primary);
-  color: white;
+  color: white; /* <-- INI BAGIAN PENTINGNYA */
   padding: 5px 14px;
   border-radius: 20px;
   font-size: 0.8rem;
-  font-weight: 500;
+  font-weight: 600; /* Dibuat sedikit lebih tebal agar mudah dibaca */
   margin-bottom: 12px;
+  line-height: 1.4; /* Menambahkan line-height untuk konsistensi */
 }
 
 .project-content p {
