@@ -1,0 +1,23 @@
+# Site Configuration
+title: Ahya Muhammad Abiyu Salam
+description: Data Science & Cloud Engineering Portfolio
+author: Ahya Muhammad Abiyu Salam
+email: abiyu.salam2004@gmail.com
+phone: +62 852 2384 0874
+linkedin: https://www.linkedin.com/in/ahya-muhammad-abiyu-salam
+
+# URL
+url: https://username.github.io
+baseurl: ""
+
+# Build Settings
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
